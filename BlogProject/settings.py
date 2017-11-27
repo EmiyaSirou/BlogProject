@@ -25,7 +25,7 @@ SECRET_KEY = '^u8yauup%3uh$t!xxh=$+s_($o_g(93bz7i+z&w_z#xzwu^on2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '47.74.133.249']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.emiya.cf']
 
 
 # Application definition
