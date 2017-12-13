@@ -18,6 +18,7 @@ def article_detail(request, pk):
                                          'markdown.extensions.codehilite',
                                          'markdown.extensions.toc',
                                      ])
+    article.increase_reading_quantity()
     comment_form = CommentForm()
     comment_list = article.comment_set.all()
     context = {'article': article, 'comment_form': comment_form, 'comment_list': comment_list}
